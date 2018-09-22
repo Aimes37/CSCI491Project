@@ -1,0 +1,13 @@
+img.picOfMe{
+    display: block;
+   margin: auto;
+}
+
+.abs-center-x {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.bg-success{
+    background-color: black;
+}
