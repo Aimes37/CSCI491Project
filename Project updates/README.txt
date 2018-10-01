@@ -7,3 +7,6 @@ I have attached a picture of what files this project will have and how they will
 I will test this project by  using white box testing mainly.
 
 Types of software I will use is, bootstrap version 4 (already have nice looking nav bar with instagram link). Something else I need to look into  is using google drive so that all pictures will go directly from there onto the website. Making maintaining a lot easier. 
+
+
+Link to git hub https://github.com/KMANK88/CSCI491Project

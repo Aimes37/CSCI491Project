@@ -1,0 +1,42 @@
+Karsten Pease
+
+Functional-non functional specifications 
+
+For my project (Jake Lambs website)
+
+I will want it to be professional looking, with the ability for people to have an idea of who he is once they see the home page. (links with a nice looking nav bar)
+
+I will have contact page- with will have all the requirements for a valid email, and all fields will need to be filled in before getting sent out as an email to Jake. Once all files are filled out I want, by the click of a button for the question to go strait to his email. 
+
+On the contact Page I want there to be additional ways for people to reach out to him if they would like to buy a photo, there can be a way for them to email him and get to his PayPal, or venmo. 
+
+On the gallery page - (the main event) I want it to access his photos on instagram and display them in a "pretty" fashion. Such as if he took a new photo, the pictures will update on the website without any extra code needing to be placed for a new photo. All pictures except the ones on his homepage will be linked through instagram. ( I talked to him about it and he would rather have instagram over dropbox or google drives).
+
+
+One little thing I want to have is on the home page, one of those cool looking slider photos of 3 where some of his best pictures can go. If I do this it will be hard coded in there, if he ever wanted to change it I would have to go in and manually do it. 
+
+For the website I was thinking I would just get a simple 1GB server and buy a domain name for his website. I will ask him to pay for this stuff (domain name is like 10$) but server will be a cost that he will need to pay for frequently.
+
+Security, should not be too complicated I am not having profiles on there and I will just send a link to his PayPal (such as if you wanted to donate) so I see no security risks.
+Look into making sure there is no risk of site being hijacked. 
+
+
+Testing - mainly white box and probably some unit testing for the more complicated features of this project. 
+
+===============================================================================
+
+Time line
+(as of now)
+__________________
+Week 7 - Have a functional and interactive contact me page(emails sent to him, fields look good and interactive, all ways of communicating are clear on site.)
+Week 8 & 9 - have a almost published professional looking home page,(slider, and good phots)/Contact is completely done
+week 10 -look into/ instagram photo updating in real time and link the page and website together. 
+Week 11- Complete all functional pages.
+
+Week 12- link any profitable accounts together (PayPal/venmo) get information form client
+week 13 - test, test, test/ purchase domain.
+week 14-15 get server up and running/test and check for security risks. 
+week 16 present final website. 
+===================================================
+
+
