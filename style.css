@@ -1,13 +1,54 @@
-img.picOfMe{
-    display: block;
-   margin: auto;
+.mySlides {display:none;}
+
+.img {
+    position: relative;
+    float: left;
+    width:  100px;
+    height: 100px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
 }
 
-.abs-center-x {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+.title { 
+    color:#fff;
+    position:absolute;
+    z-index:12;
+    top:10%;
+    left:0;
+    width:100%;
+    text-align:center;
+  }
+
+  
+  .homeLinks{
+  
+    margin: 6.25%;
+    
+  }
+  h4{
+    display: inline;
+    border: 3px white solid;
+   
+    padding: 1%;
+    margin: 2%;
+    
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next{
+      align-items: flex-end;; /* Aligns it at the bottom */
+  }
+
+.carousel-inner > .item {
+    position: relative;
+    display: none;
+    -webkit-transition: 0.6s ease-in-out left;
+    -moz-transition: 0.6s ease-in-out left;
+    -o-transition: 0.6s ease-in-out left;
+    transition: 0.6s ease-in-out left;
 }
-.bg-success{
-    background-color: black;
-}
+
+
+   
+    

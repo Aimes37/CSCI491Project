@@ -1,0 +1,14 @@
+Project update October 5 2018 - Karsten Pease
+===============================================
+Non-functional items
+I will plain on testing the performance of the website and making sure it works by using some testing libraries such as, node-jsdom or PhantomJS, I will look into more of those as we get closer to the testing phases. I will also have several users use the website and let me know if they ran into any trouble with it or if the site was slow in any way. 
+
+The best way I see to get a server online  is to share a host by going to a hosting company such as Awardspace or Zymic. I will also need to get a domain name with won't be too bad because they are only about $10 a year. Once I have both components for the Host and domain name I will need to link the two together, with is a common especially with the websites provided. There are many articles describing how to connect a host and domain name, I think I could have that done in less than a week. 
+
+I think that uploading the pages on the websites homepage will be best as hard code, because If a change is wanted I can easily get into the code and change one picture. It will also be very easy to teach my client about the changes to make. 
+
+I am actually having second thoughts about using an instagram API, I will do research into finding a way to link different files of pictures on the gallery page. 
+
+Presentation-
+
+I will present all parts of my project by showing what I have so far and talking about what I plan on doing in the future. While I talk about the plan I have for later development, I will touch on the difficult sections and parts that might be an easy solution. Tools I will use will probably be just the website and maybe a powerpoint, as of right now I know my project well and do not see a need to make a powerpoint, when I can just run the website itself. 
