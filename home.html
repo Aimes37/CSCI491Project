@@ -11,6 +11,7 @@
     <link href="css/full-slider.css" rel="stylesheet">
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Berkshire Swash' rel='stylesheet'>
+    <meta>
 
 </head>
  <body>
@@ -45,17 +46,10 @@
 
 
   <!--- CAROUSEL AREA-->
-<header>
-        <div class="title">
-            <div class="main">Jake Lamb Photos</div>
-            <div class="homeLinks"> 
-                <a href="gallery.html" color="white"><h4>Gallery </h4></a>
-                <a href="personal.html" color="white"><h4>Personal</h4></a> 
-                 
-                 <a href="contact.html"><h4> Contact </h4></a>
-                </div>
-        </div>
-<div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel" data-interval="4000">
+  <div class= "homePage">
+       
+
+<div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel" data-interval="3900">
      
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -65,29 +59,52 @@
     
     
     <div class="carousel-inner" role="listbox">
-      <!-- Slide One  -->
+      
+        <!-- Slide One  -->
       <div class="carousel-item active" style="background-image: url('waterfall.jpg') ">
-      </div>
+        <div class="carousel-caption">
+            <div class="title">
+                <div class="main">Jake Lamb Photos</div>
+                <div class="homeLinks"> 
+                    <a href="gallery.html" color="white"><h4>Gallery </h4></a>
+                    <a href="personal.html" color="white"><h4>Personal</h4></a> 
+                     <a href="contact.html"><h4> Contact </h4></a>
+                    </div>
+            </div>
+          </div> 
+    
+    
+    
+    </div>
       <!-- Slide Two -->
       <div class="carousel-item" style="background-image: url('pasture.jpg')">
-
+        <div class="carousel-caption">
+            <div class="title">
+                <div class="main">Jake Lamb Photos</div>
+            </div>
+          </div> 
       </div>
       <!-- Slide Three  -->
       <div class="carousel-item" style="background-image:  url('canyon.jpg')">
-      </div>
+        <div class="carousel-caption">
+            <div class="title">
+                <div class="main">Jake Lamb Photos</div>
+            </div>
+          </div> 
+    </div>
       
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <a class="carousel-control-prev buttons" href="#carouselExampleIndicators" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
         </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <a class="carousel-control-next buttons" href="#carouselExampleIndicators" role="button" data-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
 </div>
 
-</header>  
+</div>
 
 <!--- CAROUSEL AREA-->
  
@@ -97,10 +114,16 @@
     <style>
             .main {
                 font-family: 'Berkshire Swash';
-                font-size: 120;
+                font-size: 8vw;
             }
             a {
     color: white;
+}
+a:hover{
+    color:gray;
+}
+h4{
+    font-size: 2vw;
 }
             </style>
     <footer class="py-5 bg-dark">
