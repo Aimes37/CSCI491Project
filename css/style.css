@@ -1,0 +1,63 @@
+.mySlides {display:none;}
+
+.img {
+    position: relative;
+    float: left;
+    width:  100px;
+    height: 100px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title { 
+    color: white;
+    position: relative;
+    z-index:12;
+    left:0;
+    width:100%;
+    text-align:center;
+    
+    
+  }
+
+  .carousel-caption {
+    top: 0;
+    bottom: auto;
+}
+  .homeLinks{
+    align-content: center;
+    margin: 6.25%;
+   
+    
+  }
+  h4{
+    width: 20%;
+    border: 3px white solid;
+    
+    padding: 1%;
+    margin: 6%;
+    float: left;
+    
+ 
+  }
+
+.carousel-inner > .item {
+    position: relative;
+    display: none;
+    -webkit-transition: 0.6s ease-in-out left;
+    -moz-transition: 0.6s ease-in-out left;
+    -o-transition: 0.6s ease-in-out left;
+    transition: 0.6s ease-in-out left;
+}
+
+a:hover{
+   color: black;
+}
+
+.buttons{
+    margin-top:10%;
+}
+
+   
+    

@@ -1,0 +1,8 @@
+Karsten Pease	Progress Report Oct19
+=======================================
+Some of the changes I will make to my project are first, the payment process. After discussing with my client how he would like to go about payment, he diced that using a PayPal method is best. At first he was alright with the idea of using email but I told him that it is a major security risk and he decided to go with PayPal. Transactions will be used with PayPal but, the email will be used for communication between client and potential buyer. 
+
+
+Another correction I have decided to make is the way of maintenance. I have decided, for the current semester, to put all the different pictures and tile types on the site locally. I will next semester make a database through the back-end development phases. 
+
+I will do some server type work on the project this semester, I will incorporate the email to go through and sent to my clients email. With this I will need to set up an anti spam filter for the email so that a malicious opponent cant create havoc in his email. I have also received confirmation from him that using google bots to reference his pictures on his website will fine by him. 
