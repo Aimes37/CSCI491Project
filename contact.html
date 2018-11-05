@@ -102,8 +102,21 @@
                             <textarea  class="form-control" placeholder="Description" id="description"onfocus="hoverOver(this);"  onblur="offClick(this);"  rows="6" cols="100"></textarea> 
                        
                         <button class="btn btn-default" id="check">Send Message</button>
+                                    <!-- PAYPAL SECTION-->
+                        <form id="myContainer" method="post" action="/checkout"></form>
+
+                        <script>
+                        window.paypalCheckoutReady = function () {
+                            paypal.checkout.setup('<Your-Merchant-ID>', {
+                                environment: 'sandbox',
+                                container: 'myContainer'
+                            });
+                        };
+                        </script>
+
+                        <script src="https://www.paypalobjects.com/api/checkout.js" async></script>
                     
-                            
+                           <!-- PAYPAL SECTION-->  
                         </div>
                     </div>
                 </div>

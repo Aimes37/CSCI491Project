@@ -1,0 +1,3 @@
+Mini Update for Week of Nov2 Karsten Pease
+=============================================
+So far on my project I have added a complete gallery where it shows all pictures given to me. I added a back drop to where it has a black fade over it so that ti is hard to copy any pictures. I will later make it to where if the picture is clicked on it will show the picture normally how it is. When I first had all of the pictures it took the page about 10 minutes to get the picture loaded, so I had to down the dimensions on the pictures. I also added the a pay pal button and all I need is the market ID from my client. This weekend I plan on getting the domain and server working, hopefully I can do this shoutout spending over 20 dollars. 
