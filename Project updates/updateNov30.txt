@@ -1,0 +1,17 @@
+Project Update Nov 30 - Karsten Pease
+=======================================
+
+I have as of now, completed the project in full. If you visit. jakelambphotos.com
+or www.jakelambphotos.com you can see it for your self. 
+
+
+Recently I have been working with the PayPal function and getting horoku to link with the domain name. 
+
+Paypal was a task, because I did not want just one price for everything, I had it to where  based on the option box, I get the value and then that gets sent to PayPal and describes what is being purchased. I mainly wanted it to tell the user and the seller what it is was bough or being bought. 
+
+Linking horoku was tough but i figured it out. I had to add my project on GitHub and make it a remote on heroic.com This way it is free and I can update it whenever I need to. 
+
+Lastly, getting go daddy's domain to link with the website was not that bad, but I wanted it make it where you do not need to type in www in order to go to the website. I had to retired and make a subdomain inorder to do this. 
+
+
+I am very proud of my first website I have made, I hope my client likes it and many people get to view it. 
