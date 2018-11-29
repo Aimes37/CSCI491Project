@@ -29,7 +29,7 @@
                                            <a class="nav-link" href="personal.html">Personal</a>
                                    </li>
                                    <li class="nav-item">
-                                       <a class="nav-link" href="contact.html">Contact</a>
+                                       <a class="nav-link" href="contact.html">Purchase</a>
                                    </li>
                                </ul>
                            </div>
@@ -45,7 +45,7 @@
 
   
     <div id="messageContainer">
-        <h2 align="center">Contact me!</h2>
+        <h2 align="center">Got a question? Email me <a href="mailto:jakelambphotos@gmail.com?subject=Question about Jake Lamb Photos.">HERE</a></h2>
         
         <section id="cover">
             <div id="cover-caption" >
@@ -54,13 +54,17 @@
                         <div class="col-sm-10 offset-sm-1 text-center">
                            
                             <div class="info-form">
+                <!--     PROJECT FOR NEXT SEMESTER ADD EMAIL THROUGH SERVER!!!!
                                 <form action="" class="form-inline justify-content-center">
                                     <div class="form-group">
                                         <label for="exampleInputName2">Name</label>
                                         <input type="text" class="form-control" id="name" placeholder="Name Here" onfocus="hoverOver(this);"  onblur="offClick(this);" size="50">
                                    
                                     </div>
-                                   
+
+
+
+                             
                                     <div class="form-group">
                                         <label for="email">Email</label>
                                         <input type="email" class="form-control" id="email" placeholder="example@somplace.com" onfocus="hoverOver(this);"  onblur="offClick(this);" size="50">
@@ -92,30 +96,172 @@
                                               <option value="18">Spring Flowers</option>
                                               <option value="19">Waterfall</option>
                                               <option value="20">Canyon</option>
+                                              <option value="21">Bridge</option>
+                                              <option value="22">Winter Rail Road</option>
                                             </select>
                                           </div>
                             
+                                          <label for="exampleInputText">Your Message</label>
+                                          <textarea  class="form-control" placeholder="Description" id="description"onfocus="hoverOver(this);"  onblur="offClick(this);"  rows="6" cols="100"></textarea> 
+                                     
+                                       <button class="btn btn-default" id="check" style="border: 3px solid gray; margin: 5px;">Send Message</button>
                                     </div>
+                                    -->
+                        
+                                    <h3 style="color: black;">All purchases will be done through paypal, shipping not included in paypal purchases.</h3>
+                                    <br/>
+
+                                    <h6 align="center">Please slect the size, type of paper and photopraph you would like to purchase.</h6>
+                                  
+                                   
+                                
+                                    <select name="os0" id="Cost" onchange="getValue();">
+                                      <option value ='0'>-- Select Demension --</option>
+                                      <option value='30.00'>8 X 12 $30 USD</option>
+                                      <option value='60.00'>20 X 24 $60 USD</option>
+                                    </select> <br />
+                                    <br/>
+                                    <select name="os1" id="Type" onchange="getType();">
+                                      <option value="null">-- Select Type --</option>
+                                      <option value="Metallic">Mettalic Paper</option>
+                                      <option value="Luster">Luster Coating</option>
+                                    </select> <br />
+                                    <br/>
+                                    <select name="os1" id="Name" onchange="getName();">
+                                              <option value="null">-- Select a Picture --</option>
+                                              <option value="Country Sunrise">Country Sunrise</option>
+                                              <option value="Winter Mountain">Winter Mountain</option>
+                                              <option value="Bridge in Woods">Bridge in Woods</option>
+                                              <option value="Wave Sunset">Wave Sunset</option>
+                                              <option value="Elk in Water">Elk in Water</option>
+                                              <option value="Fall Colors">Fall Colors</option>
+                                              <option value="Purple River">Purple River</option>
+                                              <option value="Trail">Trail</option>
+                                              <option value="Man's Best Friend">Man's Best Friend</option>
+                                              <option value="Colored Water">Colored Water</option>
+                                              <option value="Bridge into Spring">Bridge into Spring</option>
+                                              <option value="Summer Rocks">Summer Rocks</option>
+                                              <option value="Lake in the Distance">Lake in the Distance</option>
+                                              <option value="Waves">Waves</option>
+                                              <option value="Pasture">Pasture</option>
+                                              <option value="Log">Log</option>
+                                              <option value="Spring Flowers">Spring Flowers</option>
+                                              <option value="Waterfall">Waterfall</option>
+                                              <option value="Canyon">Canyon</option>
+                                              <option value="Bridge">Bridge</option>
+                                              <option value="Winter Rail Road">Winter Rail Road</option>
+                                    </select> 
+                                    <br/>
+                                      
+                                   
+                                   
+<script src="https://www.paypalobjects.com/api/checkout.js"></script>
+<br/>
+<div id="paypal-button-container"></div>
+
+<script>
+i=0;
+function getValue(){
+    var cost = document.getElementById("Cost").value;
+    if(i >=2){
+        i=0;
+        return cost;
+    }else{
+        i=0;
+        return false;
+    }
+    
+}
+
+function getName(){
+var name = document.getElementById("Name").value;
+var cost = document.getElementById("Cost").value;
+if(name == 'null'){
+   i =0;
+    return false;
+}
+i++;
+return name;
+
+}
+
+function getSize(){
+var size = document.getElementById("Cost").value;
+
+if(size == "30.00"){
+    size = "8 X 12";
+}else if(size == "60.00"){
+    size = "20 X 24";
+}
+return size;
+}
+
+function getType(){
+    var type = document.getElementById("Type").value;
+    var cost = document.getElementById("Cost").value;
+    if(type == 'null'){
+    
+    i=0;
+    return false;
+}
+i++;
+    return type;
+
+}
+
+    paypal.Button.render({
+
+        // Set your environment
+
+        env: 'production', // sandbox | production
+
+        // Specify the style of the button
+
+        style: {
+            label: 'buynow',
+            fundingicons: true, // optional
+            branding: true, // optional
+            size:  'small', // small | medium | large | responsive
+            shape: 'rect',   // pill | rect
+            color: 'gold'   // gold | blue | silver | black
+        },
 
 
-                            <label for="exampleInputText">Your Message</label>
-                            <textarea  class="form-control" placeholder="Description" id="description"onfocus="hoverOver(this);"  onblur="offClick(this);"  rows="6" cols="100"></textarea> 
-                       
-                        <button class="btn btn-default" id="check">Send Message</button>
-                                    <!-- PAYPAL SECTION-->
-                        <form id="myContainer" method="post" action="/checkout"></form>
+        client: {
 
-                        <script>
-                        window.paypalCheckoutReady = function () {
-                            paypal.checkout.setup('<Your-Merchant-ID>', {
-                                environment: 'sandbox',
-                                container: 'myContainer'
-                            });
-                        };
-                        </script>
+            production: 'Adr4b4U5GaSRe2NC6lS4wFEMxTzLr3LzGlhKG4etotbVlUbpZ7KrssHyuwnpZvNEMC612UYBjFn65qLF'
+        },
 
-                        <script src="https://www.paypalobjects.com/api/checkout.js" async></script>
-                    
+        // Show the buyer a 'Pay Now' button in the checkout flow
+        commit: true,
+
+        // Wait for the PayPal button to be clicked
+    
+
+        payment: function(data, actions) {
+            return actions.payment.create({
+                transactions: [
+                    {
+                        amount: { total: getValue(), currency: 'USD' }
+                        ,description: "You are going to  purchase " +getName() + " with size " + getSize() + " and type of paper " + getType()+"."
+                    }
+                ]
+            });
+        },
+
+        // Wait for the payment to be authorized by the customer
+
+        onAuthorize: function(data, actions) {
+            return actions.payment.execute().then(function() {
+                window.alert('Payment Complete!');
+            
+            });
+        }
+
+    }, '#paypal-button-container');
+
+</script>
+    
                            <!-- PAYPAL SECTION-->  
                         </div>
                     </div>
@@ -131,7 +277,7 @@
       </footer>
 </body>
 <style>
-h5{
+h6{
     color:black;
 }
 </style>
@@ -205,8 +351,7 @@ h5{
                          });
                        
         
-        
-        
+
             
         </script>
 </html>

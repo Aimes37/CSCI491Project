@@ -1,0 +1,8 @@
+November 9th update
+=====================
+
+Recently I have made progress on my project by making the pictures bigger and in better view once you click on their title in the gallery. This may not seem like a lot but it took me almost 4 hours to get it just right. I also made it to where it disables right click on the pages and you cannot drag and drop a copy of the picture. 
+
+The next week I plain on buying tho domain and getting the PayPal button full functional. 
+
+I have spent some time thinking about how I will make the website easier to update new photos, and I think that it will be an extension of the project I will do next semester in the client side section of web programming. 

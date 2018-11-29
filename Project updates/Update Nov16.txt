@@ -1,0 +1,12 @@
+Karsten Pease Update November 16,
+
+I have gotten my PayPal button on and working, all I need to do now is get the information  from the client at what sizes he wants and at what prices, and finally his email on pay pal. Once I obtain these, I can make the PayPal function operational. 
+
+I also have gotten a domain name for my website and am ready to link it to my host.
+
+The place I have decided to host my website on is heroku. This is a free way to host a site and an easy solution to link GoDaddy.com domains.  
+
+The last think I need to do besides PayPal fully operational and link host and domain is get the email  to work though the server with a spam filter. 
+
+I plain to work on this and have most of the project done after thanksgiving break. 
+
